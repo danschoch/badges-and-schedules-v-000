@@ -11,6 +11,7 @@ def assign_rooms(speaker_list)
   speaker_list.each_with_index do |speaker, index|
     welcome_with_assign.push("Hello, #{speaker}! You'll be assigned to room #{index}!")
   end
+  welcome_with_assign
 end
 
 def printer
